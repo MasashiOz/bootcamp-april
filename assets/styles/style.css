@@ -1,0 +1,95 @@
+/* h2 {
+  background-color: aqua;
+}
+a {
+  color: white;
+}
+body {
+  background-color: tomato;
+} */
+
+/* .header {
+  background-color: greenyellow;
+}
+.nav {
+  background-color: aquamarine;
+}
+.ryo {
+  color: red;
+}
+
+#section1 {
+  background-color: brown;
+}
+
+#tai {
+  color: green;
+} */
+
+/* selectors
+        * = universal selector
+        element = h1
+        element,element = h1,p(, = and)
+        attribute,attribute = .nav,#section1
+
+        descendant selector = space
+        parent element children element = div a
+*/
+/* #section1 p span{
+    color: red;
+}
+
+.nav .menu{
+  background-color: greenyellow;
+} */
+
+/* 
+      color properties and values
+        color = text color
+        background color = fill color
+
+        values:
+          human color = black and white
+          hex color = #000000 and #ffffff
+          rgba color = rgba(0,0,0,1) and rgba(255,255,255,1)
+          1=100% transparecy - alpha
+*/
+
+*{
+  font-family: sans-serif;
+
+}
+a {
+  text-decoration: none;
+}
+
+.header h1{
+  background-color: #52cf39b4;
+  /* color: #ffffff; */
+  text-align: center;
+  letter-spacing: 20px;
+  text-transform: capitalize;
+  text-decoration: line-through;
+  text-shadow: 0px 4px 4px red;
+}
+
+.nav {
+  background-color: rgba(42, 148, 151, 0.829);
+  color: rgba(255, 255, 255, 1);
+}
+#section1 p span{
+  text-decoration: line-through;
+}
+
+#section2 p{
+  background-color: rgba(182, 31, 31, 0.5);
+  line-height: 1.6;
+  word-spacing: -5px;
+  text-transform: capitalize;
+  /* 16px default font size (recommend)
+    100% = 16px
+  */
+}
+
+
+

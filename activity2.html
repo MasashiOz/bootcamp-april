@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>simple review form</title>
+</head>
+<body>
+  <form action="https://kredo.jp" method="GET" target="_blank">
+    <fieldset>
+      <legend>Your Detail</legend>
+
+      <label for="name">Name:</label>
+      <input type="text" name="name" id="name" placeholder="Masashi Ozawa" required>
+      <br>
+
+      <label for="email">Email:</label>
+      <input type="email" name="email" id="email" placeholder="masa@gmail.com" required>
+    </fieldset>
+  
+    <fieldset>
+      <legend>Your Review</legend>
+
+      <label for="browser">How did you hear about us?</label>
+      <select name="browser" id="browser">
+        <option value="google">Google</option>
+        <option value="facebook">Facebook</option>
+        <option value="youtube">YouTube</option>
+        <option value="none"></option>
+      </select>
+      <br>
+
+      <p>Would you visit again?
+        <br>
+        <input type="radio" name="answer" value="yes" id="yes">
+        <label for="yes">Yes</label>
+
+        <input type="radio" name="answer" value="no" id="no">
+        <label for="no">No</label>
+
+        <input type="radio" name="answer" value="maybe" id="maybe">
+        <label for="maybe">Maybe</label>
+      </p> 
+
+      <label for="comment">Comments:</label>
+      <br>
+      <textarea name="comment" id="comment" cols="50" rows="5" placeholder="comment here"></textarea>
+      <br>
+      <br>
+
+      <input type="checkbox" name="sign" value="sign" id="sign">
+      <label for="sign">Sign me up for email updates</label>
+      <br>
+
+      <input type="submit" name="submit" value="Submit review">
+
+    </fieldset>
+  
+  
+  </form>
+
+</body>
+</html>
